@@ -1,0 +1,110 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Bruce Alacritty
+# Version:    0.1.0
+# License:    MIT
+# References:
+#   https://github.com/alacritty/alacritty
+window:
+  padding:
+    x: 20
+    y: 20
+
+# colors:
+#   primary:
+#     background: '#2e3440'
+#     foreground: '#d8dee9'
+#     dim_foreground: '#a5abb6'
+#   cursor:
+#     text: '#2e3440'
+#     cursor: '#d8dee9'
+#   vi_mode_cursor:
+#     text: '#2e3440'
+#     cursor: '#d8dee9'
+#   selection:
+#     text: CellForeground
+#     background: '#4c566a'
+#   search:
+#     matches:
+#       foreground: CellBackground
+#       background: '#88c0d0'
+#     bar:
+#       background: '#434c5e'
+#       foreground: '#d8dee9'
+#   normal:
+#     black: '#3b4252'
+#     red: '#bf616a'
+#     green: '#a3be8c'
+#     yellow: '#ebcb8b'
+#     blue: '#81a1c1'
+#     magenta: '#b48ead'
+#     cyan: '#88c0d0'
+#     white: '#e5e9f0'
+#   bright:
+#     black: '#4c566a'
+#     red: '#bf616a'
+#     green: '#a3be8c'
+#     yellow: '#ebcb8b'
+#     blue: '#81a1c1'
+#     magenta: '#b48ead'
+#     cyan: '#8fbcbb'
+#     white: '#eceff4'
+#   dim:
+#     black: '#373e4d'
+#     red: '#94545d'
+#     green: '#809575'
+#     yellow: '#b29e75'
+#     blue: '#68809a'
+#     magenta: '#8c738c'
+#     cyan: '#6d96a5'
+#     white: '#aeb3bb'
+
+# falcon colorscheme for alacritty
+# by fenetikm, https://github.com/fenetikm/falcon
+colors:
+  # Default colors
+  primary:
+    background: "#1e222a"
+    foreground: "0xb4b4b9"
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: "0x020221"
+    cursor: "0xffe8c0"
+
+  # Normal colors
+  normal:
+    black: "0x000004"
+    red: "0xff3600"
+    green: "0x718e3f"
+    yellow: "0xffc552"
+    blue: "0x635196"
+    magenta: "0xff761a"
+    cyan: "0x34bfa4"
+    white: "0xb4b4b9"
+    onedark: "#2B2C34"
+
+  # Bright colors
+  bright:
+    black: "0x020221"
+    red: "0xff8e78"
+    green: "0xb1bf75"
+    yellow: "0xffd392"
+    blue: "0x99a4bc"
+    magenta: "0xffb07b"
+    cyan: "0x8bccbf"
+    white: "0xf8f8ff"
+
+font:
+  normal:
+    family: Source Code Pro
+    style: Medium
+
+  bold:
+    family: Source Code Pro
+
+  italic:
+    family: Source Code Pro
+
+  size: 13
